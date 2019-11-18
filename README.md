@@ -19,12 +19,12 @@
 * Select your device’s or emulator’s Android API level (Version) from SDK Platforms Tab
 * Select latest and Latest-1 API libraries for Install
 * Click SDK Tools tab and Check below checkboxes
-I. Android SDK Build-Tools
-II. Android Emulator
-- Android SDK Platform-tools
-- Documentation for Android SDK
-- Intel X86 Emulator Accelerator(HAXM Installer)
-- Support Repository
+  I. Android SDK Build-Tools
+  II. Android Emulator
+  III. Android SDK Platform-tools
+  IV. Documentation for Android SDK
+  V. Intel X86 Emulator Accelerator(HAXM Installer)
+  VI. Support Repository
 * Click OK and Finish
 
 ### Setting ANDROID_HOME 
