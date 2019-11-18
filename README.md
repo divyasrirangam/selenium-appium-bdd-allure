@@ -45,8 +45,9 @@
 * When the installation file downloaded, click run and start to install appium desktop
 * When installation finished, double-click the appium icon and open the appium server as shown below
 * OR
-* npm install -g
-* appium --allow-insecure chromedriver_autodownload
+* "npm install -g" to install appium
+* "appium --allow-insecure chromedriver_autodownload" start appium with auto chrome download
+
 * Let’s click the “Advanced” tab and change the Server Address as “127.0.0.1” and click Allow Session Override for override session when there will be problems and click “Start Server”.
 * Click Allow access if window with Allow Access appear
 * Appium server running message should be displayed
