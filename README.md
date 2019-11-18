@@ -9,13 +9,13 @@
 * To Install Android Studio, Click Next button
 * Check Android virtual Device check if not checked and click Next
 * Again Click Next button and Click Install
-* Choose do not ìimport import my settingsî and Click OK
+* Choose do not ‚Äúimport import my settings‚Äù and Click OK
 * Click Next and select Standard
 * Again Click Next & Next
 * On Verify Setting page, Click Finish
 * Wait for Libraries to download
 * Click Configure and Select SDK Manager
-* Select your deviceís or emulatorís Android API level (Version) from SDK Platforms Tab
+* Select your device‚Äôs or emulator‚Äôs Android API level (Version) from SDK Platforms Tab
 * Select latest and Latest-1 API libraries for Install
 * Click SDK Tools tab and Check below checkboxes
 ** Android SDK Build-Tools
@@ -32,7 +32,7 @@
 * Now create sample project in Android SDK
 * And install all the missing Libraries (They are displaying as error with Install button)
 * Click Device Icon on Top right in android studio
-* Click on ìCreate Virtual Deviceî
+* Click on ‚ÄúCreate Virtual Device‚Äù
 * Select Hardware window will be displayed
 * Select Any device Let say Pixel XL and Click Next
 * Click Download API level 27 and Click Next & Finish
@@ -40,20 +40,20 @@
 * Now click on Launch your device
 
 ### Setting Up appium
-* Go to http://appium.io/downloads.html and click ìAppium-Desktop for OSX, Windows and Linuxî link
-* Click ìappium-desktop-Setup-1.3.1.exeî file or latest one 
+* Go to http://appium.io/downloads.html and click ‚ÄúAppium-Desktop for OSX, Windows and Linux‚Äù link
+* Click ‚Äúappium-desktop-Setup-1.3.1.exe‚Äù file or latest one 
 * When the installation file downloaded, click run and start to install appium desktop
 * When installation finished, double-click the appium icon and open the appium server as shown below
 * OR
 * npm install -g
 * appium --allow-insecure chromedriver_autodownload
-* Letís click the ìAdvancedî tab and change the Server Address as ì127.0.0.1î and click Allow Session Override for override session when there will be problems and click ìStart Serverî.
+* Let‚Äôs click the ‚ÄúAdvanced‚Äù tab and change the Server Address as ‚Äú127.0.0.1‚Äù and click Allow Session Override for override session when there will be problems and click ‚ÄúStart Server‚Äù.
 * Click Allow access if window with Allow Access appear
 * Appium server running message should be displayed
 
-###Exceute Test
-mvn clean test -DbrowserName=chrome -DplatformName=android
-mvn clean test -DbrowserName=chrome -DplatformName=windows
-mvn allure:serve  
+### Exceute Test
+* mvn clean test -DbrowserName=chrome -DplatformName=android
+* mvn clean test -DbrowserName=chrome -DplatformName=windows
+* mvn allure:serve  to generate HTML report
 
 
